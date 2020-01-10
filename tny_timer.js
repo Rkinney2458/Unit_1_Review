@@ -1,3 +1,4 @@
+"use strict";
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
@@ -9,7 +10,9 @@
 
 */
 
-
+function showClock(){
+   var thisDay = new Date(May, 19, 2018);
+}
 function nextJuly4(currentDate) {
    var cYear = currentDate.getFullYear();
    var jDate = new Date("July 4, 2018");
